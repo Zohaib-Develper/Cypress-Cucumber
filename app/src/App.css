@@ -1,0 +1,38 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+form div {
+  margin: 10px 0;
+}
+
+form input {
+  width: 40%;
+  height: 2rem;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #f9f9f9;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+button {
+  margin: 5px;
+}
